@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i,900,900i|Noto+Sans+KR:400,500,700,900|Noto+Serif+KR:400,500,600,700,900|Song+Myung&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.01em;
+    box-sizing: border-box;
+    letter-spacing: -1px;
+}
+
+.en{
+    font-family: 'Merriweather', serif;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,li {
+    list-style: none;
+}
+
+input[type="button"] {
+    cursor: pointer;
+}

@@ -1,0 +1,227 @@
+@media screen and (max-width:800px) {
+    html{
+        min-width: 320px;
+    }
+
+    #header > div .logo img {
+        display : none;
+    }
+
+    #header .txt_Wrap {
+        margin-top: 40px;
+    }
+
+    .txt_Wrap .logo_media {
+        background: url(/img/logo.png) no-repeat 0 0 /250px;
+        width: 250px;
+        height: 80px;
+        color: transparent;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    #header .txt_Wrap .txt1 {
+        font-size: 1.8rem;
+    }
+    
+    #header .txt2,
+    #header .txt3 {
+        display: none;
+    }
+
+    .board_wrap .section1 {
+        width: 90%;
+        height: 550px;
+    }
+
+    #header .sns_Wrap {
+        margin-top: 20px;
+    }
+
+    #header .sns_Wrap > ul li {
+        margin: 0 0 0 15px;
+    }
+ 
+    #header .section_Wrap,
+    #header .scroll_wrap {
+        display: none;
+    }
+
+    .board_wrap .section1.type1 {
+        padding-top: 50px;
+    }
+    .board_wrap .section1 > div {
+         height: 500px;
+    }
+    .board_wrap .section1 .text h1 {
+        font-size: 2.3rem;
+    }
+    .board_wrap .section1 .text .txt_1 {
+        font-size: 0.9rem;
+    }
+
+    .board_wrap .section1.type2 .text h2 {
+        font-size: 2rem;
+    }
+
+    .board_wrap .section1 .text .txt_2 {
+        font-size: 1rem;
+        word-break: keep-all;
+        line-height: 25px;
+    }
+
+    .board_wrap .section1 .text .txt_3 {
+        font-size: 1rem;
+    }
+    .board_wrap .section1.type2 .text .txt_1,
+    .board_wrap .section1.type2 .text .notice span {
+        font-size: 1rem;
+        line-height: 30px;
+        padding-left: 0;
+    }
+
+    .board_wrap .section1.type2 {
+        padding-top: 10px;
+    }
+    .board_wrap .story_board h1 {
+        padding: 50px 0 0 0;
+    }
+
+    .board_wrap .story_board ul li {
+        display: block;
+        margin: 35px auto 0 auto;
+    }
+
+    .board_wrap .story_board{
+        padding-bottom: 50px;
+    }
+
+    .container_Wrap .wrap h1 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .container_Wrap .wrap span {
+        font-size: 1rem;
+    }
+    .container_Wrap .wrap {
+        float: none;
+        width: 100%;
+        height: 0;
+    }
+
+    .wrap.dep1 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 0;
+        text-align: center;
+    }
+
+    .container_Wrap .wrap.dep1 > div {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .container_Wrap .wrap img {
+        display: none;
+    }
+
+    .section1 {
+        height: 200px;
+    }
+
+    .section1 > div {
+        height: 300px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .section1 .text {
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .menu_wrap .dep1  {
+        display: none;
+    }
+
+    #header .txt_Wrap .txt1 {
+        display: none;
+    }
+
+    #header .txt_Wrap {
+        margin-top: 55px;
+    }
+
+    #header .txt_Wrap .mobile_menu {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: url(/img/menu.png) no-repeat 0 0 /25px;
+        width: 27px;
+        height: 27px;
+        color: rgba(0,0,0,0);
+    }
+
+    .txt_Wrap .logo_media {
+        background: url(/img/logo.png) no-repeat 0 0 /250px;
+        width: 250px;
+        height: 65px;
+        color: transparent;
+        margin: 0 auto;
+        margin-bottom: 0;
+    }
+
+    #header .sns_Wrap {
+        margin-top: 0;
+    }
+    .section1 {
+        height: auto;
+    }
+    .section1 > div {
+        width: 100%;
+    }
+    
+    .section1.type1 .image,
+    .section1.type2 .text {
+        float: none;
+    }
+
+    .section1.type1 .text,
+    .section1.type2 .image {
+        float: none;
+    }
+
+    .section1 .text {
+        margin-top: 20px;
+    }
+
+    .board_wrap .section1.type2 .text .notice {
+        margin: 20px 0 20px 0;
+    }
+    .board_wrap .section1 {
+        height: auto;
+    }
+    .board_wrap .section1 > div {
+        width: 100%;
+        height: 300px;
+    }
+
+    .board_wrap .story_board ul li {
+        width: 350px;
+    }
+    .board_wrap .story_board h1 {
+        font-size: 2.2rem;
+    }
+    .board_wrap .story_board span {
+        font-size: 1.2rem;
+    }
+
+
+
+}
